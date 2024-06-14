@@ -12,7 +12,7 @@ EXTENSIONES = ['jpg', 'png', 'jpeg']
 LOCATION, PROJECT_ID, PROCESSOR_ID, PROCESSOR_VERSION = 'us', 'mystic-primacy-xxxxxx', 'cxxxxxxxxxx0', "rc"
 MIME_TYPE = "image/jpeg"
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'google_ai.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'api_dai.json'
 
 process_options = documentai.ProcessOptions(
     ocr_config=documentai.OcrConfig(
